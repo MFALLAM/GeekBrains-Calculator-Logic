@@ -328,7 +328,7 @@ public class MainActivity extends AppCompatActivity {
         }
 
         for (int i = 0; i < listTwo.size(); i++) {
-            sumSecondHolder += Integer.parseInt(listOne.get(i));
+            sumSecondHolder += Integer.parseInt(listTwo.get(i));
         }
 
         switch (operator) {
